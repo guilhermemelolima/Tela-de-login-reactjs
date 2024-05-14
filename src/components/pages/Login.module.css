@@ -1,0 +1,49 @@
+.conteudo{
+    border-radius: 5%;
+    width: 25em;
+    margin: 5em auto 0 auto;
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #dfece6;
+}
+
+.conteudo h1{
+    font-weight: bold;
+    font-size: 5em;
+    color: #2d2d29;
+}
+
+.conteudo ul{
+    list-style: none;
+    flex-direction: column;
+}
+
+.conteudo li{
+    margin: 1em 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.conteudo span {
+    padding: 0.5em; flex: 1;
+}
+
+.conteudo label{
+    color: #2d2d29;
+}
+
+.conteudo input{
+    border: 1 solid;
+}
+
+.conteudo .buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1em;
+}
+/* .conteudo .buttons .btn{
+
+} */
